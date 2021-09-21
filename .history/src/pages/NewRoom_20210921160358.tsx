@@ -6,12 +6,12 @@ import logoImg from "../assets/images/logo.svg";
 
 import { Button } from "../components/Button"
 import { database } from '../services/firebase';
-import { useAuth } from '../hooks/useAuth';
+//import { useAuth } from '../hooks/useAuth';
 
 import '../styles/auth.scss';
 
 export function NewRoom() {
-  const { user } = useAuth()
+  //const { user } = useAuth()
 
   const [ newRoom, setNewRoom ] = useState('')
 
